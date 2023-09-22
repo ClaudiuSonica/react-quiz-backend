@@ -7,7 +7,7 @@ const app = express();
 const port = 3300;
 
 const corsOptions = {
-  origin: "https://react-quiz-app111.netlify.app/",
+  origin: "https://react-quiz-app111.netlify.app",
   optionsSuccessStatus: 200,
 };
 
