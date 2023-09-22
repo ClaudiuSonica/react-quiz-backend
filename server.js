@@ -4,7 +4,7 @@ const cors = require("cors");
 const { readdirSync } = require("fs");
 
 const app = express();
-const port = 3300;
+const port = "https://react-quiz-backend.netlify.app";
 
 const corsOptions = {
   origin: "https://react-quiz-app11.netlify.app",
@@ -18,5 +18,5 @@ readdirSync("./routes").map((route) =>
 );
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Example app listening at${port}`);
 });
